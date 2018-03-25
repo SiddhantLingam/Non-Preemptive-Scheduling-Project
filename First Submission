@@ -6,7 +6,7 @@ int main()
 {   system("color b"); 
     int burst[20],process[20],wait[20],priority[20];
     int i,j,n,total=0,pos,temp;
-    float avg_wait,avg_turn;
+    float avg_wait;
     printf("\n************** Non Pre-emptive Scheduling Approach with Priority! **************");
     printf("\n\n Enter number of process: ");
     scanf("%d",&n);
